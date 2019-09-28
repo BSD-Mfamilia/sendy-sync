@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# User and pass to access Sendy
+USER=
+PASS=
+
+# Sendy server location
+DOMAIN= # envios.masmadrid.org
+BASEURL= # "https://$DOMAIN"
+
+# Sendy application ID (i parameter on Sendy web URLs)
+APP=
+
+# Max size for uploads
+SPLIT_SIZE=524288
